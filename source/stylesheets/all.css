@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+img {
+  height: 5em;
+}
+
+
+.content-bottom{
+  padding-top: 30em;
+
+}
+
+h2 {
+  color: white;
+}
+.top-nav-area, .bottom-area  {
+  background-color: #2980b9;
+
+}
+
+hr {
+  height: 2em;
+}
+
+.about-us-img img {
+  height: 15em;
+  width: 27em;
+}
+
+.projects-img img {
+  height: 15em;
+  width: 20em;
+}
+
+.who-we-are-img img {
+  height: 10em;
+  width: 16em;
+}
+
+.bottom-area-img img {
+  height: 6em;
+  /*margin-top: 5em;
+  margin-bottom: 5em;*/
+}
+
+.bottom-area-map img {
+  height: 8em;
+}
+
+h3 {
+  color: #2980b9;
+}
+
+.nav-area-right {
+  color: white !important;
+}
+
+.no-style-li {
+  list-style-type: none;
+}

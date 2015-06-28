@@ -11,10 +11,10 @@ img {
 }
 
 h2 {
-  color: white;
+  color: white !important;
 }
 .top-nav-area, .bottom-area  {
-  background-color: #2980b9;
+  background-color: #2980b9 !important;
 
 }
 

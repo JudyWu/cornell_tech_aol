@@ -7,15 +7,18 @@ img {
 <<<<<<< HEAD
 =======
 
-/*.content-bottom{
+.content-bottom{
   padding-top: 30em;
 
+<<<<<<< HEAD
 }*/
 
 >>>>>>> 6ccbcfdfd5b667ced05dd612b485c8de02e067f3
 .content-bottom img {
   height: 30em;
   width: 70em;
+=======
+>>>>>>> parent of 6ccbcfd... Automated commit at 2015-06-29 00:14:03 UTC by middleman-deploy 1.0.0
 }
 
 h2 {
@@ -66,11 +69,3 @@ h3 {
 .no-style-li {
   list-style-type: none;
 }
-
-
-#main-page-content, #projects-content, #about-us-content, #news-content, .extra-bottom-padding {
-  padding-bottom: 3em;
-}
-
-
-

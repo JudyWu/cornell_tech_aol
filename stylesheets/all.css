@@ -4,21 +4,10 @@ img {
   height: 5em;
 }
 
-<<<<<<< HEAD
-=======
 
-.content-bottom{
-  padding-top: 30em;
-
-<<<<<<< HEAD
-}*/
-
->>>>>>> 6ccbcfdfd5b667ced05dd612b485c8de02e067f3
 .content-bottom img {
   height: 30em;
   width: 70em;
-=======
->>>>>>> parent of 6ccbcfd... Automated commit at 2015-06-29 00:14:03 UTC by middleman-deploy 1.0.0
 }
 
 h2 {

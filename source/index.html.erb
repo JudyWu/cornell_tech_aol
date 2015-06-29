@@ -21,21 +21,22 @@ title: Cornell Tech AOL Connected Experiences
       <div class="collapse navbar-collapse pull-right" id="aol-nav-collapse">
         <ul class="nav navbar-nav">
           <li class="">
-            <a href="" class="nav-area-right">Projects/Publications</a>
+            <a href="#projects-content" class="nav-area-right">Projects/Publications</a>
           </li>
           <li>
-            <a href="" class="nav-area-right">About Us</a>
+            <a href="#about-us-content" class="nav-area-right">About Us</a>
           </li>
           <li>
-            <a href="" class="nav-area-right">In the News</a>
+            <a href="#news-content" class="nav-area-right">In the News</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="content-area row">
+  <div class="content-area row" id="main-page-content">
     <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 content-bottom">
+      <center><%= image_tag "test_image.png" %></center>
       <p>
       The Connected Experiences Laboratory studies and builds technologies at the forefront of the digital ecosystem – including analytical techniques that fuse diverse personal data streams into actionable insights; content personalization that works across delivery platforms; connectivity tools that deepen and sustain engagement within families and communities; and new interfaces to interact with these systems and applications. The Connected Experiences Laboratory will innovate the way we live.
       </p>
@@ -78,7 +79,7 @@ title: Cornell Tech AOL Connected Experiences
 
 </div>
 
-<div>
+<div id="about-us-content">
   <div>
     <center><%= image_tag "circle_arrow.png" %></center>
     <center><h3>About Us</h3></center>
@@ -100,7 +101,7 @@ title: Cornell Tech AOL Connected Experiences
       <%= image_tag "test_image.png" %>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 extra-bottom-padding" >
       <p>
       The breadth of the support will allow researchers at Cornell Tech and The Technion to pursue research in diverse topics, including human computer interaction, computer vision, machine learning, natural language processing, and social computing across multiple disciplines: computer science, management science, electrical engineering, information science and more. The Cornell Tech lab will also include full-time engineers and designers, in addition to faculty, PhD students and postdocs. To build meaningful technologies and improve the likelihood of impact, we need people in-house that can design and build systems, moving early research prototypes into the real world. This is a highly unusual and unique approach, and one that will have tremendous and quickly-realized impacts on the industry at large.
       </p>
@@ -155,7 +156,7 @@ title: Cornell Tech AOL Connected Experiences
 
 <hr>
 
-<div class="row">
+<div id="news-content" class="row">
   <div class="col-md-10 col-md-offset-1">
     <center><h3>In the News</h3></center>
     <ul class="no-style-li">

@@ -4,10 +4,9 @@ img {
   height: 5em;
 }
 
-
-.content-bottom{
-  padding-top: 30em;
-
+.content-bottom img {
+  height: 30em;
+  width: 70em;
 }
 
 h2 {
@@ -58,3 +57,11 @@ h3 {
 .no-style-li {
   list-style-type: none;
 }
+
+
+#main-page-content, #projects-content, #about-us-content, #news-content, .extra-bottom-padding {
+  padding-bottom: 3em;
+}
+
+
+

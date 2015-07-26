@@ -13,87 +13,93 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="stylesheets/all.css" rel="stylesheet" type="text/css" /><link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="http://elrumordelaluz.github.io/csshake/css/csshake.min.css">
+    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/all.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
     <script src="/javascripts/all.js" type="text/javascript"></script>
   </head>
 
   <body class="index">
-    <div class="row">
-  <nav class="navbar navbar-default top-nav-area col-md-12">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#aol-nav-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle Navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="navbar-brand" href="">
-          <img src="images/test_image.png"/>
-        </a>
-        <h2 class="collapse navbar-collapse">Cornell Tech AOL Connected Experiences</h2>
-      </div>
-
-      <div class="collapse navbar-collapse pull-right" id="aol-nav-collapse">
-        <ul class="nav navbar-nav">
-          <li class="">
-            <a href="#projects-content" class="nav-area-right">Projects/Publications</a>
-          </li>
-          <li>
-            <a href="#about-us-content" class="nav-area-right">About Us</a>
-          </li>
-          <li>
-            <a href="#news-content" class="nav-area-right">In the News</a>
-          </li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-default navbar-fixed-top top-nav-area">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#aol-nav-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="navbar-brand" href="">
+        <img style="height: 3em; padding-bottom: 1%;" src="/images/test_image.png" />
+      </a>
+      <h1 class="collapse navbar-collapse">Cornell Tech AOL Connected Experiences</h1>
     </div>
-  </nav>
 
-  <div class="content-area row">
-    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 content-bottom">
-      <center><img src="images/test_image.png" class="img-responsive"></center>
-
-      <p>
-      The Connected Experiences Laboratory studies and builds technologies at the forefront of the digital ecosystem – including analytical techniques that fuse diverse personal data streams into actionable insights; content personalization that works across delivery platforms; connectivity tools that deepen and sustain engagement within families and communities; and new interfaces to interact with these systems and applications. The Connected Experiences Laboratory will innovate the way we live.
-      </p>
+    <div class="collapse navbar-collapse pull-right" id="aol-nav-collapse">
+      <ul class="nav navbar-nav" style="font-size: 1.3em; padding-top: 3%;">
+        <li>
+          <a class="nav-area-right" id="project-nav-button">Projects</a>
+        </li>
+        <li>
+          <a class="nav-area-right" id="about-nav-button">About Us</a>
+        </li>
+        <li>
+          <a class="nav-area-right" id="news-nav-button">In the News</a>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
+
+<div id="main-page-content" class="content-area">
+  <div class="content-bottom">
+    <p style="font-size: 2em;">
+    The Connected Experiences Laboratory studies and builds new technologies at the forefront of the digital ecosystem that deepen and sustain engagement within communities.
+    </p>
+
+    <center>
+      <div class="shake shake-constant">
+        <img style="width: 3em; height: 2em;" src="/images/down_arrow.png" />
+        <p>Scroll Down</p>
+      </div>
+    </center>
   </div>
 </div>
 
 <div id="projects-content">
-  <div >
+  <hr>
+  <div>
+    <center><h2>Projects</h2></center>
 
-    <span class="divide-bar"></span>
-    <center><img src="images/circle_arrow.png" /></center>
-    <center><h3>Projects/Publications</h3></center>
   </div>
 
   <div class="row">
-    <div class="col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-offset-2 projects-img">
+    <div class="col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1 projects-img">
       <h4>Title</h4>
-      <img src="images/test_image.png" />
+      <img class="img-responsive" src="/images/test_image.png" />
 
     </div>
 
-    <div class="col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-offset-2 projects-img">
-       <h4>Title</h4>
-      <img src="images/test_image.png" />
+    <div class="col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1 projects-img">
+      <h4>Title</h4>
+      <img class="img-responsive" src="/images/test_image.png" />
 
     </div>
   </div>
   <div class="row">
-    <div class="col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-offset-2 projects-img">
+    <div class="col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1 projects-img">
       <h4>Title</h4>
 
-      <img src="images/test_image.png" />
+      <img class="img-responsive" src="/images/test_image.png" />
     </div>
 
-    <div class="col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-offset-2 projects-img">
+    <div class="col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1 projects-img">
       <h4>Title</h4>
-      <img src="images/test_image.png" />
-    </div>
 
+      <img class="img-responsive" src="/images/test_image.png" />
+
+    </div>
   </div>
 
 </div>
@@ -101,73 +107,84 @@
 <hr>
 
 <div id="about-us-content">
+  <hr>
   <div>
-    <!-- <center><img src="images/circle_arrow.png" /></center> -->
-    <center><h3>About Us</h3></center>
+
+    <center><h2>About Us</h2></center>
   </div>
 
-  <div class="row">
-    <div class="col-md-5 about-us-img pull-right">
-      <img src="images/test_image.png" />
-    </div>
+  <div class="row" style="padding-top: 1%; padding-bottom: 1%;">
+
     <div class="col-md-6 col-md-offset-1">
-      <p>
-      A first collaboration of its kind for Cornell Tech and AOL, the AOL gift allows researchers at Cornell Tech and at the Technion in Israel to address a varied set of areas including communication and coordination, food and wellness,education and safety, information and entertainment. The research will catalyze the use of data to make choices about behaviors, content and products, enhance and support our connections to the people closest to us, and help create ties that empower and build local communities. The AOL gift will support a multinational laboratory for Connected Experiences, or ConnX, over four years. A fellowship program will support graduate students at each locale, and help the research activities of faculty in each location, 50% of them female. Diversity will be top of mind for every tech organization, academic or otherwise. We are designing new technologies that would be used by a population that is 50% female. It is only appropriate that the research team reflects that ratio.
+      <p class="about-us-text">
+      The collaboration brings together two institutions that are central to the NYC tech scene: AOL as a pioneering media technology company and Cornell Tech as the new flagship university campus for digital technologies. The AOL gift allows researchers to pursue diverse topics including human computer interaction, computer vision, machine learning, natural language processing, and social computing. The research catalyzes the use of data to make choices about behaviors and products, enhance and support our connections to the people closest to us, and help create ties that empower and build local communities.
+      </p>
+    </div>
+    <div class="col-md-4 about-us-img">
+      <img src="http://tech.cornell.edu/uploads/posts/_ND79371.jpg" class='img-responsive'>
+    </div>
+  </div>
+
+
+  <div class="row" style="padding-top: 1%; padding-bottom: 1%;">
+    <div class="col-md-4 col-md-offset-1 about-us-img">
+      <img src="http://tech.cornell.edu/uploads/posts/_ND79371.jpg" class='img-responsive'>
+    </div>
+    <div class="col-md-6 extra-bottom-padding" >
+      <p class="about-us-text">
+      The Cornell Tech lab includes full-time engineers and designers, in addition to faculty, PhD students and postdocs. To build meaningful technologies and improve the likelihood of impact, we need people in-house that can design and build systems, moving early research prototypes into the real world. If you are interested in working with us, please send us an e-mail!
+
       </p>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-4 col-md-offset-1 about-us-img pull-left">
-      <img src="images/test_image.png" />
-    </div>
-
-    <div class="col-md-6">
-      <p>
-      The breadth of the support will allow researchers at Cornell Tech and The Technion to pursue research in diverse topics, including human computer interaction, computer vision, machine learning, natural language processing, and social computing across multiple disciplines: computer science, management science, electrical engineering, information science and more. The Cornell Tech lab will also include full-time engineers and designers, in addition to faculty, PhD students and postdocs. To build meaningful technologies and improve the likelihood of impact, we need people in-house that can design and build systems, moving early research prototypes into the real world. This is a highly unusual and unique approach, and one that will have tremendous and quickly-realized impacts on the industry at large.
-      </p>
+  <div class="row" style="padding-top: 1%; padding-bottom: 1%;">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Who We Are</h2>
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <h3>Who We Are</h3>
-      <p>The collaboration brings together in a four year partnership two institutions that are central to the NYC tech scene, AOL as a pioneering media technology company headquartered in NYC and Cornell Tech as the new flagship university campus for digital technologies. Moreover, building on the international reach and span of both organizations, the collaboration will extend to the Technion, with part of the gift supporting activities there in coordination with AOL Israel.</p>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-      <div class="row">
-        <div class="col-sm-3 col-xs-6 who-we-are-img">
-          <img src="images/test_image.png" />
+      <div class="row" style="padding-top: 3%; padding-bottom: 3%;">
+        <div class="col-sm-4 who-we-are-img">
+          <img class="img-responsive" src="/images/test_image.png" />
           <p>Shiri Azenkot, Cornell Tech</p>
-
-          <img src="images/test_image.png" />
+        </div>
+        <div class="col-sm-4 who-we-are-img">
+          <img class="img-responsive" src="/images/test_image.png" />
           <p>Serge Belongie, Cornell Tech</p>
         </div>
 
-        <div class="col-sm-3 col-xs-6 who-we-are-img">
-          <img src="images/test_image.png" />
+        <div class="col-sm-4 who-we-are-img">
+          <img class="img-responsive" src="/images/test_image.png" />
           <p>Deborah Estrin, Cornell Tech</p>
-
-           <img src="images/test_image.png" />
+        </div>
+      </div>
+      <div class="row" style="padding-top: 3%; padding-bottom: 3%;">
+        <div class="col-sm-4 who-we-are-img">
+           <img class="img-responsive" src="/images/test_image.png" />
           <p>Mor Naaman, Cornell Tech</p>
         </div>
 
-        <div class="col-sm-3 col-xs-6 who-we-are-img">
-          <img src="images/test_image.png" />
+        <div class="col-sm-4 who-we-are-img">
+          <img class="img-responsive" src="/images/test_image.png" />
           <p>Anar Rafaeli, Technion</p>
-
-          <img src="images/test_image.png" />
+        </div>
+        <div class="col-sm-4 who-we-are-img">
+          <img class="img-responsive" src="/images/test_image.png" />
           <p>Nir Ailon, Technion</p>
         </div>
-
-        <div class="col-sm-3 col-xs-6 who-we-are-img">
-          <img src="images/test_image.png" />
+      </div>
+      <div class="row" style="padding-top: 3%; padding-bottom: 3%;">
+        <div class="col-sm-4 who-we-are-img">
+          <img class="img-responsive" src="/images/test_image.png" />
           <p>Lihi Zelnik, Technion</p>
+        </div>
+        <div class="col-sm-4 who-we-are-img">
+          <img class="img-responsive" src="/images/test_image.png" />
 
-          <img src="images/test_image.png" />
           <p>Roi Reichart, Technion</p>
         </div>
       </div>
@@ -175,52 +192,51 @@
   </div>
 </div>
 
-<hr>
-
 <div id="news-content" class="row">
+  <hr>
   <div class="col-md-10 col-md-offset-1">
-    <center><h3>In the News</h3></center>
-    <ul class="no-style-li">
+    <center><h2>In the News</h2></center>
+    <!-- <ul class="no-style-li">
       <li><a href="">Headline link</a></li>
       <li><a href="">Headline link</a></li>
       <li><a href="">Headline link</a></li>
       <li><a href="">Headline link</a></li>
-    </ul>
+    </ul> -->
   </div>
 </div>
 
 <div class="bottom-area row">
-  <div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-1">
-    <div class="row">
-      <div class="col-sm-3 col-xs-5 bottom-area-img">
-        <img src="images/test_image.png" />
-      </div>
 
-      <div class="col-sm-3 col-xs-5 bottom-area-img">
-        <img src="images/test_image.png" />
-      </div>
-
-      <div class="col-sm-3 col-xs-5 bottom-area-img">
-        <img src="images/test_image.png" />
-      </div>
-
-      <div class="col-md-3 col-xs-5 bottom-area-img">
-        <img src="images/test_image.png" />
-      </div>
+  <div class="col-md-4 col-sm-12 col-xs-12 col-md-offset-1 bottom-address" style="padding-bottom: 1em;">
+    <div id="mc_embed_signup" style="padding-bottom: 1em; padding-top: 1em;">
+      <h2 style="color: white !important;">Subscribe to our mailing list</h2>
+      <form action="//cornell.us3.list-manage.com/subscribe/post?u=9ff7319a6ef1ae54ed30d9609&amp;id=28fdd0243a" method="post" class="form-inline" target="_blank" novalidate>
+        <div class="form-group">
+          <label for="mce-EMAIL">TeamAOL Email Address  <span class="asterisk">*</span>
+          </label>
+          <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+        </div>
+        <div class="indicates-required" style="padding-bottom: 1em;"><span class="asterisk">*</span> indicates required</div>
+        <button type="submit" value="Subscribe" name="subscribe" class="btn btn-success" style="font-size: 1.3em;">Subscribe</button>
+      </form>
     </div>
   </div>
 
-  <div class="col-md-5 col-sm-6 col-xs-6">
-    <div class="row">
-      <div class="col-sm-5 col-xs-8 bottom-area-map">
-        <img src="images/test_image.png" />
-      </div>
+  <div class="col-md-5 col-sm-8 bottom-area-map">
+    <img class="img-responsive" src="/images/cornell_tech_aol_map.png" />
+  </div>
 
-      <div class="col-sm-4 col-xs-4">
-        <p>111 8th Avenue Suite 302 New York, NY 10011</p>
-        <p>cs@cornell.edu</p>
-      </div>
-    </div>
+  <div class="col-md-2 col-sm-4" style="font-size: 1.2em; padding-top: 3%;">
+    <p>111 8th Avenue Suite 302 New York, NY 10011</p>
+    <p>cs@cornell.edu</p>
+  </div>
+  <div style="padding-top: 3%;">
+    <center>
+      <img style="height: 3em;" src="/images/test_image.png" />
+      <img style="height: 3em;" src="/images/test_image.png" />
+      <img style="height: 3em;" src="/images/test_image.png" />
+      <img style="height: 3em;" src="/images/test_image.png" />
+    </center>
   </div>
 
 </div>

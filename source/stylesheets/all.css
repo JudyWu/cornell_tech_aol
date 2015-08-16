@@ -9,27 +9,29 @@ body, html {
 }
 
 #main-page-content {
+  /*margin-top: 8em;*/
   width: 100%;
   height: 100%;
   background-image: url('http://tech.cornell.edu/uploads/page_headers/_full/all_background_images_copy.jpg');
-  background-size: cover;
-  opacity: 0.85;
-  left: 0;
-  right: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*opacity: 0.85;*/
+  /*left: 0;*/
+  /*right: 0;*/
 }
 
 .top-nav-area  {
-  background-color: #1E6E96 !important;
+  background-color: white !important;
  /*#4DC8EE*/
   position: relative;
 }
-
+/*
 h1 {
-  color: white !important;
-}
+  color: #4DC8EE !important;
+}*/
 
 h2 {
-  color: #1E6E96 !important;
+  color: #4DC8EE !important;
 }
 .content-bottom {
   position: absolute;
@@ -42,11 +44,14 @@ h2 {
 .content-bottom p {
   color: white;
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 1.5em;
 }
 
 .bottom-area {
-  background-color: #1E6E96 !important;
+  background-color: #4DC8EE !important;
+  /*#1E6E96*/
   padding: 2%;
 }
 
@@ -56,9 +61,14 @@ hr {
   margin-bottom: 5em !important;
 }
 
+#about-us-content {
+  background-color: #4DC8EE;
+}
+
 .about-us-text {
   font-size: 1.3em;
-  padding-top: 5%;
+  color: white;
+  /*padding-top: 5%;*/
 }
 
 .bottom-address {
@@ -68,8 +78,23 @@ hr {
 .who-we-are-img p, h4 {
   font-size: 1.5em;
   text-align: center;
+  color: white;
 }
 
+.blue-bar {
+  background-color: #4DC8EE;
+  width: 100%;
+  height: 5em;
+}
+
+.blue-arrow {
+  margin-top: -3.5em;
+}
+
+.blue-arrow-down{
+  margin-top: 3em;
+  margin-bottom: -3.5em;
+}
 /* forced changes on bootstrap */
 
 .row {
@@ -77,26 +102,23 @@ hr {
   margin-right: 0 !important;
 }
 
-.navbar-default {
-  border-color: #1E6E96 !important;
-}
+
 
 .nav-area-right {
-  color: white !important;
+  color: #4DC8EE !important;
 }
 
 a:hover {
   color: #EC2426 !important;
 }
 
-
-
-
-
-
 .no-style-li {
   list-style-type: none;
 }
+
+/*.container-fluid {
+  height: 8em;
+}*/
 
 
 

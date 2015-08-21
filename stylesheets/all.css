@@ -178,10 +178,13 @@ a:hover {
   list-style-type: none;
 }
 
-/*.container-fluid {
-  height: 8em;
-}*/
+h3 {
+  font-size: 2em;
+}
 
+center p {
+  font-size: 1.5em;
+}
 
 
 

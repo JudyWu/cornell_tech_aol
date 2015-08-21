@@ -2,7 +2,7 @@
 @media(max-width:767px){
 
 }
-@media(max-width:992px){
+@media(max-width:991px){
   .content-bottom p {
     font-size: 4em !important;
   }
@@ -53,10 +53,7 @@
     font-size: 3em !important;
    }
 }
-@media(min-width:992px){
 
-}
-@media(min-width:1200px){}
 
 /* major change */
 

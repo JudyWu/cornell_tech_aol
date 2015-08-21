@@ -4,7 +4,7 @@
 }
 @media(max-width:992px){
   .content-bottom p {
-    font-size: 3em !important;
+    font-size: 4em !important;
   }
 
   .projects-img {
@@ -12,29 +12,29 @@
   }
 
    h3 {
-     font-size: 3em !important;
+     font-size: 3.5em !important;
      max-width: 50em !important;
    }
 
    center p {
-    font-size: 2em !important;
+    font-size: 2.5em !important;
     max-width: 50em !important;
    }
 
    .about-us-text {
-    font-size: 2em !important;
+    font-size: 2.5em !important;
    }
 
    .who-we-are-img p {
-    font-size: 2em !important;
+    font-size: 2.5em !important;
    }
 
    #aol-nav-collapse {
-    font-size: 1.5em !important;
+    font-size: 2em !important;
    }
 
    h1 {
-    font-size: 2.7em !important;
+    font-size: 3em !important;
    }
 
    .col-md-3 img {
@@ -47,6 +47,10 @@
 
    .bottom-area-map center img {
      width: 80em !important;
+   }
+
+   h2 {
+    font-size: 3em !important;
    }
 }
 @media(min-width:992px){

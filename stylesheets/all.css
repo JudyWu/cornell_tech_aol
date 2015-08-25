@@ -2,7 +2,7 @@
 
 @media(min-width:767px) and (max-width:991px){
   .content-bottom p {
-    font-size: 4em !important;
+    font-size: 2em !important;
   }
 
   .projects-img {
@@ -50,6 +50,14 @@
    h2 {
     font-size: 3em !important;
    }
+
+  .main-page-background{
+    margin-top: 12em !important;
+   }
+
+  .blue-bar {
+     height: 6em !important;
+  }
 }
 
 
@@ -58,16 +66,17 @@
 body, html {
   margin:0;
   height: 100%;
-  font-family: 'Helvetica Neue', Helvetica,Arial,sans-serif !important;
+  font-family:'Lato', sans-serif !important;
+  /*'Helvetica Neue', Helvetica,Arial,sans-serif !important;*/
 }
 
 #main-page-content {
   /*margin-top: 8em;*/
   width: 100%;
-  height: 100%;
-  background-image: url('http://tech.cornell.edu/uploads/page_headers/_full/all_background_images_copy.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  /*height: 92%;*/
+  /*background-image: url('http://tech.cornell.edu/uploads/page_headers/_full/all_background_images_copy.jpg');*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
   /*opacity: 0.85;*/
   /*left: 0;*/
   /*right: 0;*/
@@ -78,20 +87,17 @@ body, html {
  /*#4DC8EE*/
   position: relative;
 }
-/*
-h1 {
-  color: #4DC8EE !important;
-}*/
+
 
 h2 {
   color: #4DC8EE !important;
 }
 .content-bottom {
-  position: absolute;
+  /*position: absolute;*/
   /*top: 70%;
   text-align: center;*/
-  bottom: 0;
-  right: 0;
+  /*bottom: 0;*/
+  /*right: 0;*/
 }
 
 .content-bottom p {
@@ -141,7 +147,7 @@ hr {
 .blue-bar {
   background-color: #4DC8EE;
   width: 100%;
-  height: 5em;
+  height: 10em;
 }
 
 .blue-arrow {
@@ -180,7 +186,3 @@ h3 {
 center p {
   font-size: 1.3em;
 }
-
-
-
-

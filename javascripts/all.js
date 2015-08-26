@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $('#project-nav-button').click(function() {
     $('html, body').animate({
-      scrollTop: $('#projects-content').offset().top - 100}, 1000);
+      scrollTop: $('#projects-content').offset().top - 20}, 1000);
   });
   $('#project-arrow').click(function() {
     $('html, body').animate({
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   $('#news-nav-button').click(function() {
     $('html, body').animate({
-      scrollTop: $('#news-content').offset().top - 100}, 1000);
+      scrollTop: $('#news-content').offset().top - 200}, 1000);
   });
 
 });

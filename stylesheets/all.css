@@ -142,6 +142,7 @@
     }
     .navbar-toggle {
       display: block !important;
+      margin-top: 25px !important;
     }
     .navbar-collapse {
         border-top: 1px solid transparent !important;
@@ -170,6 +171,10 @@
     }
     .collapsing {
         overflow: hidden !important;
+    }
+
+    a img {
+      height: 5em !important;
     }
 }
 
@@ -236,9 +241,9 @@ body, html {
 }
 
 #about-us-content {
-  /*background-color: #B31B1B;red*/
-  /*background-color: #78A719; green */
-  background-color: #106B6B;
+  background-color: #B31B1B;
+  /*background-color: #78A719; green
+  /*background-color: #106B6B; blue*/
 }
 
 .about-us-text {
@@ -260,7 +265,7 @@ body, html {
 h2 {
   /*color: #B31B1B !important; red*/
   /*color: #78A719 !important; green*/
-  color: #106B6B;
+  color: #106B6B !important;
 
 }
 
@@ -300,9 +305,9 @@ a {
 }
 
 .blue-bar {
-  /*background-color: #B31B1B; red*/
+  background-color: #B31B1B;
   /*background-color: #78A719; green*/
-  background-color: #106B6B;
+  /*background-color: #106B6B; blue*/
   width: 100%;
   height: 5em;
 }
@@ -317,9 +322,9 @@ a {
 }
 
 .bottom-area {
-  /*background-color: #B31B1B !important; red*/
+  background-color: #B31B1B !important;
   /*background-color: #78A719 !important; green*/
-  background-color: #106B6B;
+  /*background-color: #106B6B; blue*/
   padding: 2%;
 }
 
@@ -331,4 +336,8 @@ a {
 
 .bottom-address {
   font-size: 1.2em;
+}
+
+.btn {
+  background-color: #106B6B !important;
 }

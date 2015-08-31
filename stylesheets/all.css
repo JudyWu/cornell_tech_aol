@@ -142,7 +142,7 @@
     }
     .navbar-toggle {
       display: block !important;
-      margin-top: 25px !important;
+      margin-top: 20px !important;
     }
     .navbar-collapse {
         border-top: 1px solid transparent !important;
@@ -173,8 +173,12 @@
         overflow: hidden !important;
     }
 
-    a img {
+    .navbar-header a img {
       height: 5em !important;
+    }
+
+    .navbar-toggle .icon-bar {
+      height: 5px !important;
     }
 }
 

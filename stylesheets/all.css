@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media (max-width: 776px) {
+/*@media (max-width: 776px) {
   .main-page-background{
     margin-top: 40px !important;
    }
@@ -134,9 +134,9 @@
     bottom: 0;
   }
 }
+*/
 
-
-@media (min-width: 777px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
     .navbar-header {
         float: none !important;
     }
@@ -145,7 +145,6 @@
     }
     .navbar-toggle {
         display: block !important;
-        margin-top: 18px !important;
     }
     .navbar-collapse {
         border-top: 1px solid transparent !important;
